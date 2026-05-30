@@ -56,6 +56,22 @@
 
 ---
 
+## Sample Chunks
+
+<!-- Paste 5 representative chunks from your document collection after running your ingestion pipeline.
+     For each chunk, note which source document it came from.
+     These must be actual text — not screenshots. -->
+
+| # | Source document | Chunk text |
+|---|----------------|------------|
+| 1 | | |
+| 2 | | |
+| 3 | | |
+| 4 | | |
+| 5 | | |
+
+---
+
 ## Embedding Model
 
 <!-- Name the embedding model you used and explain your choice.
@@ -67,6 +83,45 @@
 **Model used:**
 
 **Production tradeoff reflection:**
+
+---
+
+## Retrieval Test Results
+
+<!-- Run these 3 queries through your retrieval system and record the top returned chunks.
+     For at least 2 of the 3, explain why the returned chunks are relevant to the query.
+     Results must be text — not screenshots. -->
+
+**Query 1:**
+
+Top returned chunks:
+-
+-
+-
+
+Relevance explanation:
+
+---
+
+**Query 2:**
+
+Top returned chunks:
+-
+-
+-
+
+Relevance explanation:
+
+---
+
+**Query 3:**
+
+Top returned chunks:
+-
+-
+-
+
+Relevance explanation:
 
 ---
 
@@ -82,6 +137,62 @@
 **System prompt grounding instruction:**
 
 **How source attribution is surfaced in the response:**
+
+---
+
+## Example Responses
+
+<!-- Provide at least 2 grounded responses (query + response + source attribution)
+     and 1 out-of-scope query showing your system's refusal.
+     All entries must be text — not screenshots. -->
+
+**Grounded response 1**
+
+Query:
+
+Response:
+
+Source attribution:
+
+---
+
+**Grounded response 2**
+
+Query:
+
+Response:
+
+Source attribution:
+
+---
+
+**Out-of-scope query**
+
+Query:
+
+System response (refusal):
+
+---
+
+## Query Interface
+
+<!-- Describe your query interface: what are the input fields, what does the output look like?
+     Then provide a complete sample interaction transcript showing a real exchange. -->
+
+**Input fields:**
+
+**Output format:**
+
+---
+
+**Sample Interaction Transcript**
+
+<!-- Show a complete query → response exchange as it actually appears in your interface.
+     Must be text — not a screenshot. -->
+
+> **User:** 
+
+> **System:** 
 
 ---
 
