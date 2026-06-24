@@ -257,9 +257,3 @@ I would prioritize retrieval accuracy, multilingual robustness, and compatibilit
   * Check that claims are supported by retrieved sources and that unsupported information is clearly marked as uncertain.
   * Refine prompts and retrieval settings until answers consistently meet expectations.
 
-
-**Milestone 3 — Ingestion and chunking:**
-
-**Milestone 4 — Embedding and retrieval:**
-
-**Milestone 5 — Generation and interface:**
